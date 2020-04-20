@@ -7,7 +7,7 @@ spring:
     name: inter-hsp-auth
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://hsp-redis.wkmhs.com:3306/internethsp?characterEncoding=UTF-8&useUnicode=true&useSSL=true&serverTimezone=UTC
+    url: jdbc:mysql://hsp-rds.wkmhs.com:3306/internethsp?characterEncoding=UTF-8&useUnicode=true&useSSL=true&serverTimezone=UTC
     username: internethsp
     password: Internethsp@2020
 logging:
