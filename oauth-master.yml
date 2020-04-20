@@ -1,0 +1,39 @@
+server:
+  port: 9049
+  servlet:
+    context-path: /Oauth
+spring:
+  application:
+    name: inter-hsp-auth
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://hsp-redis.wkmhs.com:3306/internethsp?characterEncoding=UTF-8&useUnicode=true&useSSL=true&serverTimezone=UTC
+    username: internethsp
+    password: Internethsp@2020
+logging:
+  level:
+    org:
+      springframework:
+        security:
+          oauth2: debug
+ #security权限认证配置          
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: client-secret
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin@127.0.0.1:9092/eureka/eureka
+#      http://localhost:9092/eureka/
+tx-lcn:
+  client:
+    manager-address: 127.0.0.1:8070
+  ribbon:
+    loadbalancer:
+      dtx:
+        enabled: true         
+          
