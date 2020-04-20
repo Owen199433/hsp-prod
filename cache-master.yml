@@ -88,7 +88,7 @@ eureka:
 #    enabled: true
 
 sidecar:
-  hostname: 10.10.10.243
-  ip-address: 10.10.10.243
+  hostname: 127.0.0.1
+  ip-address: 127.0.0.1
   port: 9990     #cache异构微服务的端口
   healthUri: http://${sidecar.ip-address}:${sidecar.port}/cache/v1/api/testConnect  #对应第三方程序的health接口
