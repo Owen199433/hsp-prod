@@ -77,7 +77,7 @@ spring:
 #http client配置服务
 http:
   #最大连接数
-  maxTotal: 100
+  maxTotal: 9
   #并发数
   defaultMaxPerRoute: 20
   #创建连接的最长时间
