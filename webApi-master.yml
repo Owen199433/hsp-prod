@@ -3,6 +3,11 @@ server:
   port: 9044
   servlet:
     context-path: /webApi
+  jetty:
+  ####Jetty properties########
+    acceptors: 2 # acceptor线程数
+    max-http-post-size: 0 # put或post方法最大字节数
+    selectors: 4 # selector线程数
 ##数据库连接信息
 spring:
   main:
@@ -50,7 +55,7 @@ spring:
     mvc:
      static-path-pattern: /**
     resources:
-     static-locations: classpath:/templates/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/ 
+     static-locations: classpath:/templates/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
     prefix: classpath:/templates/
 
   #JPA配置
@@ -175,3 +180,8 @@ security:
     resource:
       jwt:
         key-value: client-secret
+#  http://boss-beta.wkmhs.com/webApi/refund/orderRefundNotify 测试
+#  http://boss-dev.wkmhs.com/webApi/refund/orderRefundNotify 开发
+#  http://www.cqmbyy120.cn/webApi/refund/orderRefundNotify
+notifyUrl:
+  refundUrl: http://boss-dev.wkmhs.com/webApi/refund/orderRefundNotify
