@@ -165,4 +165,4 @@ security:
       jwt:
         key-value: client-secret
 notifyUrl:
-  payUrl: https://boss-beta.wkmhs.com/webPatient/order/orderPayNotify
+  payUrl: https://boss-prod.wkmhs.com/webPatient/order/orderPayNotify
