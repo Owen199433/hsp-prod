@@ -17,7 +17,7 @@ spring:
     #redis端口号
     port: 6379
     #redis 密码
-    password:
+    password: 1234Ab!@#￥
   # 心跳检测时间(ms). 默认为 30000
 tx-lcn:
   manager:

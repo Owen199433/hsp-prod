@@ -69,7 +69,7 @@ spring:
 #      max-totle: 1000
 #      max-wait: -1
 #      max-idle: 100
-    password:
+    password: 1234Ab!@#￥
     jedis:
       pool:
         max-active: 8

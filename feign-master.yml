@@ -71,7 +71,7 @@ spring:
         max-idle: 8
         max-wait: -1
         min-idle: 0
-    password:
+    password: 1234Ab!@#￥
   
 
 eureka:
