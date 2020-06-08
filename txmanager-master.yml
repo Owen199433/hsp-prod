@@ -20,7 +20,7 @@ spring:
     port: 6379
   #redis 密码
 
-    password: 1234Ab!@#￥
+    password: Wkhsp@2020!@
 
 # TM后台登陆密码
 tx-lcn:

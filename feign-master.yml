@@ -71,7 +71,7 @@ spring:
         max-idle: 8
         max-wait: -1
         min-idle: 0
-    password: 1234Ab!@#￥
+    password: Wkhsp@2020!@
   
 
 eureka:
