@@ -171,3 +171,7 @@ security:
     resource:
       jwt:
         key-value: client-secret
+followUp:
+  url: https://h5-prod.wkmhs.com  
+oauth:
+  tokenUrl: http://boss-prod.wkmhs.com/Oauth/oauth/token

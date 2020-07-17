@@ -186,3 +186,9 @@ security:
 #  http://www.cqmbyy120.cn/webApi/refund/orderRefundNotify
 notifyUrl:
   refundUrl: https://boss-prod.wkmhs.com/webApi/refund/orderRefundNotify
+oauth:
+  tokenUrl: http://boss-prod.wkmhs.com/Oauth/oauth/token
+followUp:
+  url: https://h5-prod.wkmhs.com/mydoctor
+  templateId: ojx9qyZz4Tu72a3wb_v0EfVU99IvJw8m4NFqej-Zl_k
+  taskTime: 15
