@@ -190,5 +190,12 @@ oauth:
   tokenUrl: http://boss-prod.wkmhs.com/Oauth/oauth/token
 followUp:
   url: https://h5-prod.wkmhs.com/mydoctor
-  templateId: ojx9qyZz4Tu72a3wb_v0EfVU99IvJw8m4NFqej-Zl_k
+  templateId: 7kZ29gFPMYFpyxbWUzA66GQ07YO-i-dX4cj5yY8lztw #随访提醒模板 api
+  templateOrderId: GxNWYOkdXsqhAcJli1ZKDlTlW2IOiRI0L6y_EpF0EX0 #订单待支付提醒模板 api
+  templatePrescriptionNotPayId: 3PQKdrQ2GzXzwUPQ1oYuoWhRABThSrt-kED8Wai08GI #处方待支付提醒模板 api
+  templatePatientReportId: ykXl7vlB1wiZpwBMok7PjsY7DMEOeSSP-mSCFmsxN1k #患者报道通知模块 api
+  templatePrescriptionId: 5uqSwzYfPtSGCP2mVVsrF7I-gs1S8Du2NEbfXY_7Jf8 #处方审核通过提醒模板/处方生成通知模板 doctor/api
+  templatePrescriptionCreateId: EEdMNqs0b2gi2DYPCmu40TFJ0V1xPS5wI_M-4q5-KMo #处方生成提醒模板 暂未使用
+  templateRemarkId: 1rvbs-Nh1fdVJD9vbVDJMiUIoHt2PgntGbbaLvK1anI #关注成功模板 暂未使用
+  templatePushId: oKwVGNuKMiLrcIe64h2cM7BFBZnJbW51W37OfNNpGz8 #订单支付成功提醒模板 暂未使用
   taskTime: 15
