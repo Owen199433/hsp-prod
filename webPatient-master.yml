@@ -167,7 +167,7 @@ security:
 notifyUrl:
   payUrl: https://boss-prod.wkmhs.com/webPatient/order/orderPayNotify
 followUp:
-  url: https://boss-prod.wkmhs.com
+  url: https://h5-prod.wkmhs.com
   templateConsultId: DdTZUyhvrGH_bLFZyJzgujsJJHQfQl5ltXf1RCNAFd8  #医生问询模板 patient/doctor
   templateRemarkId: 1rvbs-Nh1fdVJD9vbVDJMiUIoHt2PgntGbbaLvK1anI #关注成功模板 暂未使用
   followRemindOperatingProcedures: 关注公众号，点击以下链接  #操作流程 patient
