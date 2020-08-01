@@ -189,7 +189,7 @@ notifyUrl:
 oauth:
   tokenUrl: http://boss-prod.wkmhs.com/Oauth/oauth/token
 followUp:
-  url: https://h5-prod.wkmhs.com/mydoctor
+  url: https://h5-prod.wkmhs.com
   templateId: 7kZ29gFPMYFpyxbWUzA66GQ07YO-i-dX4cj5yY8lztw #随访提醒模板 api
   templateOrderId: GxNWYOkdXsqhAcJli1ZKDlTlW2IOiRI0L6y_EpF0EX0 #订单待支付提醒模板 api
   templatePrescriptionNotPayId: 3PQKdrQ2GzXzwUPQ1oYuoWhRABThSrt-kED8Wai08GI #处方待支付提醒模板 api
