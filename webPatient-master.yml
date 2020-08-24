@@ -172,5 +172,5 @@ followUp:
   templateRemarkId: 1rvbs-Nh1fdVJD9vbVDJMiUIoHt2PgntGbbaLvK1anI #关注成功模板 暂未使用
   followRemindOperatingProcedures: 关注公众号，点击以下链接  #操作流程 patient
   followRemindTel: 023-63208687  #电话 patient
-  followRemindContent: 欢迎关注铭博互联网医院，诚挚邀请您观看李启富教授直播，欢迎您点击观看。  #内容 patient
-  followRemindUrl: https://www.cqconquer.com/app/index.php?i=2&c=entry&rid=66&do=index&m=wxz_wzbagent  #链接 patient
+  followRemindContent: 欢迎关注铭博互联网医院，找医生咨询可点击查看详情。  #内容 patient
+  followRemindUrl:  https://h5-prod.wkmhs.com/dockerlist  #链接 patient
