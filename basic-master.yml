@@ -29,8 +29,11 @@ spring:
       remove-abandoned-timeout: 1800
     validationQuery: SELECT 1 FROM DUAL
     testWhileIdle: true
-    testOnBorrow: false
+    testOnBorrow: true
     testOnReturn: false
+    logAbandoned: true
+    removeAbandoned: true
+    removeAbandonedTimeout: 1800
     # 打开PSCache，并且指定每个连接上PSCache的大小
     poolPreparedStatements: true
     maxPoolPreparedStatementPerConnectionSize: 20
