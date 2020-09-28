@@ -185,3 +185,12 @@ followUp:
   followRemindTel: 023-63208687  #电话 patient
   followRemindContent: 欢迎关注铭博互联网医院，找医生咨询可点击查看详情。  #内容 patient
   followRemindUrl:  https://h5-prod.wkmhs.com/dockerlist  #链接 patient
+#微信公众号配置
+weixin-config:
+  app-id: wxb1e2e72c68d0c387
+  secret: 97adb855160192baef3b0172b308847b
+  mch-id: 1589276901
+  api-key: WkhspzT56xih1PBnu7kfst1MqHyr0429
+  ydyy-app-id: wxabe812c9cfd06f10
+  ydyy-mch-id: 1553312401
+  ydyy-api-key: 260223992b0c4515a0362d8655ba2020

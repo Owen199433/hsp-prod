@@ -137,3 +137,8 @@ security:
     resource:
       jwt:
         key-value: client-secret
+#微信公众号配置
+weixin-config:
+  app-id: wxb1e2e72c68d0c387
+  mch-id: 1589276901
+  api-key: WkhspzT56xih1PBnu7kfst1MqHyr0429

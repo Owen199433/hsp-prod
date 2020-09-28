@@ -210,3 +210,8 @@ followUp:
   templateRemarkId: 1rvbs-Nh1fdVJD9vbVDJMiUIoHt2PgntGbbaLvK1anI #关注成功模板 暂未使用
   templatePushId: oKwVGNuKMiLrcIe64h2cM7BFBZnJbW51W37OfNNpGz8 #订单支付成功提醒模板 暂未使用
   taskTime: 15
+#微信公众号配置  
+weixin-config:
+  app-id: wxb1e2e72c68d0c387
+  mch-id: 1589276901
+  api-key: WkhspzT56xih1PBnu7kfst1MqHyr0429
