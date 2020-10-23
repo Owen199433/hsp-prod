@@ -5,6 +5,17 @@ server:
     context-path: /order
 ##数据库连接信息
 spring:
+  cloud: 
+    loadbalancer:
+      retry:      
+        enabled: true
+  http:
+    multipart:
+      maxFileSize: 1024Mb
+      maxRequestSize: 1024Mb
+
+  main:
+    allow-bean-definition-overriding: true
   application:
       name: inter-hsp-order
   datasource:
