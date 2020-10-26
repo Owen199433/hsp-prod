@@ -8,7 +8,7 @@ spring:
   main:
     allow-bean-definition-overriding: true
   application:
-    name: inter-hsp-webapi
+    name: inter-hsp-webPatient
   servlet:
     multipart:
       enabled: true
