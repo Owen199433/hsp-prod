@@ -60,6 +60,7 @@ spring:
       ddl-auto: none
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
     properties:
+      hibernate.order_by.default_null_ordering: last
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
         jdbc:
