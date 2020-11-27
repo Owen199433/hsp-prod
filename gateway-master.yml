@@ -14,7 +14,7 @@ spring:
           # 服务名小写
           lower-case-service-id: true
       routes:
-    # =====================================
+     # =====================================
       - id: SERVICEBASIC
           # lb代表从注册中心获取服务，且已负载均衡方式转发
         uri: lb://INTER-HSP-BASIC
@@ -154,6 +154,22 @@ spring:
         predicates:
         
         - Path=/Oauth/**
+        filters:
+        - StripPrefix=0     
+      - id: SERVICEOZIPKIN
+                    # lb代表从注册中心获取服务，且已负载均衡方式转发
+        uri: lb://INTER-HSP-ZIPKIN
+        predicates:
+        
+        - Path=/zipkin/**
+        filters:
+        - StripPrefix=0     
+      - id: SERVICEWEBINTEFACE
+                    # lb代表从注册中心获取服务，且已负载均衡方式转发
+        uri: lb://INTER-HSP-WEBINTERFACE
+        predicates:
+        
+        - Path=/webInterface/**
         filters:
         - StripPrefix=0         
   # =====================================
