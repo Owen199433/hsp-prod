@@ -184,7 +184,7 @@ security:
         key-value: client-secret
 followUp:
   url: https://h5-prod.wkmhs.com
-  imUrl: https://im-beta.wkmhs.com
+  imUrl: https://h5-prod.wkmhs.com
   templatePrescriptionId: 5uqSwzYfPtSGCP2mVVsrF7I-gs1S8Du2NEbfXY_7Jf8 #处方审核通过提醒模板/处方生成通知模板 doctor/api
   templateMessageId: 7kZ29gFPMYFpyxbWUzA66GQ07YO-i-dX4cj5yY8lztw #消息群发模板 doctor
   templateConsultId: DdTZUyhvrGH_bLFZyJzgujsJJHQfQl5ltXf1RCNAFd8  #医生问询模板 patient/doctor
