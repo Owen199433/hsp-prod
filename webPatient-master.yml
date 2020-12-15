@@ -182,6 +182,7 @@ security:
         key-value: client-secret
 notifyUrl:
   payUrl: https://boss-prod.wkmhs.com/webPatient/order/orderPayNotify
+  aliAppletPayNotifyUrl: https://boss-prod.wkmhs.com/webPatient/order/orderAliAppletsPayNotify
 followUp:
   url: https://h5-prod.wkmhs.com
   templateConsultId: DdTZUyhvrGH_bLFZyJzgujsJJHQfQl5ltXf1RCNAFd8  #医生问询模板 patient/doctor
