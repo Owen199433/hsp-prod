@@ -1,6 +1,6 @@
 server:
   #端口号
-  port: 9030
+  port: 9031
 
 ##数据库连接信息
 spring:
